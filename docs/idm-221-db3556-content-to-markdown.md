@@ -1,5 +1,4 @@
 # Declan Beauchamp – Portfolio Website  
-# Home Page  
 ## About Me  
  I am a second year User Experience and Interaction Design major at Drexel University. However, most of the work on this website is currently mostly composed of 3D work, since I was an Animation/VFX Major during my first year at Drexel. Some of my 3D work is from my time as an Animation major from Drexel, but a lot of it is from passion projects I did when I was still in high school. Some themes I really enjoy exploring are nature and the stillness that can be captured from that, and urbanism, with all of its chaos. I really enjoy trying to find ways to blend the two, as the relationship and interactions between nature and man-made objects has always intrigued me. The other works on this site come from my time doing mixed media design in my freshman design classes, Design I for Media, and Design II for Media. During these classes, I wanted my identity as a designer to be apparent, even if I was restricted by the requirements of these classes, and I believe my identity as a designer can be seen throughout the works.  
 ### Contact Information:  
@@ -118,4 +117,4 @@ CG Boost Academy
 **Design II for Media Project 2: *Adobe Illustrator***  
 **Design II for Media Color Sequence: *Adobe Photoshop***  
 **Design II for Media Project 3: *Adobe Illustrator***  
-***Design II for Media Final Project: *Digital Painting***  
+**Design II for Media Final Project: *Digital Painting***  
