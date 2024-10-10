@@ -92,29 +92,47 @@ CG Boost Academy
 # 3D
 **Forest Scene: *Made with Blender 3D, Rendered in the Cycles Engine***  
 	For this scene, I wanted to capture a magical sort of feeling, with the light coming from the sky through the fog. To do this,  I took advantage of the volumetrics in Blender, which is something that the Cycles engine does well. I think that because of the volumetrics in this scene, I could capture that magical sense I was going for in the piece.  
+
 **300SL Scene: *Made with Blender, Rendered in Cycles – Car Model from Blendswap***  
-	I was inspired by the way city lights look like on a rainy night for this piece. Cities become more colorful on a rainy night because all of the lights cut through and reflect off of the rain and the puddles. It creates a calm, colorful atmosphere, which was a lot of fun to recreate in Blender.  
+	I was inspired by the way city lights look like on a rainy night for this piece. Cities become more colorful on a rainy night because all of the lights cut through and reflect off of the rain and the puddles. It creates a calm, colorful atmosphere, which was a lot of fun to recreate in Blender. 
+
 **Stairway Video: *Made with Blender, Rendered in Cycles, composited in Blender***  
-	For this video, I wanted to blend nature and man-made elements together in a sort of dream-like way, seen with the grass growing indoors, and the strange light at the top. This sort of dream-like familiarity has always been an interesting concept to me, and it is something I try to capture frequently.    
+	For this video, I wanted to blend nature and man-made elements together in a sort of dream-like way, seen with the grass growing indoors, and the strange light at the top. This sort of dream-like familiarity has always been an interesting concept to me, and it is something I try to capture frequently.
+
 **Record Video: *Made with Blender, Rendered in Cycles, composited in DaVinci Resolve***  
 	For this video, I wanted to learn some more skills in a stylish way. Records are difficult to model in 3D up close because of all the grooves in them, and I wanted to challenge myself to model and animate one in a realistic way.  
+
 **Inflatable Physics Test: *Made with Blender, Rendered in Cycles, composited in Blender***  
 	This was another skill exercise that I wanted to do in a fun way. I did this by using the internal physics engine in Blender, with a non-collapsing cloth simulation, and a wind force. By doing this, I could create one of the inflatable men that car dealerships use.  
+
 **Design I Final: *Made with Blender, Rendered in Eevee***  
 	This was the final project for my Design I class. I had the constraints of black and white, and it could only be a minute long. I wanted to tell the story of the relationship between humans and nature, with the city being built out of the forest.  
+
 **Kitchen Scene: *Models done in Maya, Textures done in Substance Painter, Rendered in Redshift – Model and Texture credit to Xing Lin, Thien Binh Vo, and Ethan Richards***  
-	This was the first group project I had done in 3D, and my group decided to do an industrial kitchen scene. We modeled, textured, and rendered our specific models and then made our own compositions out of our model library.  
+	This was the first group project I had done in 3D, and my group decided to do an industrial kitchen scene. We modeled, textured, and rendered our specific models and then made our own compositions out of our model library.
+
 **Record Player Model: *Modeled in Maya, Rendered in ARNOLD***  
-	This was the final project for my Computer Graphics Imagery I final. The assignment was to model an object that you had in your home, and I decided to model a record player that I have. The biggest challenge was getting the pattern on the side correct, but otherwise, I think it was a good model for the first thing I modeled in Maya.   
+	This was the final project for my Computer Graphics Imagery I final. The assignment was to model an object that you had in your home, and I decided to model a record player that I have. The biggest challenge was getting the pattern on the side correct, but otherwise, I think it was a good model for the first thing I modeled in Maya.
+
 **Pinball Video: *Modeled in Maya, Rendered in ARNOLD***  
-    This was an assignment for my Animation I class, and the assignment was to create a 10 second perfect loop.   
+    This was an assignment for my Animation I class, and the assignment was to create a 10 second perfect loop.
+
 **Design I for Media Project 0: *Adobe Illustrator***  
-**Design I for Media Project 1: *Ink on Paper, composited in Adobe Photoshop***  
-**Design I for Media Project 2: *Paper Notan, composited and cleaned in Adobe Photoshop – Imagery Based on The Party directed by Sally Potter***  
+
+**Design I for Media Project 1: *Ink on Paper, composited in Adobe Photoshop*** 
+
+**Design I for Media Project 2: *Paper Notan, composited and cleaned in Adobe Photoshop – Imagery Based on The Party directed by Sally Potter*** 
+
 **Design I for Media Project 3: *Ink on Paper and Photography, composited in Adobe Photoshop***  
-**Design I for Media Project 4: *Acrylic on Paper, ball animation done in Adobe Photoshop***  
-**Design II for Media Project 1: *Scanned Objects organized in Adobe Photoshop***  
-**Design II for Media Project 2: *Adobe Illustrator***  
+
+**Design I for Media Project 4: *Acrylic on Paper, ball animation done in Adobe Photoshop*** 
+
+**Design II for Media Project 1: *Scanned Objects organized in Adobe Photoshop***
+
+**Design II for Media Project 2: *Adobe Illustrator*** 
+
 **Design II for Media Color Sequence: *Adobe Photoshop***  
-**Design II for Media Project 3: *Adobe Illustrator***  
+
+**Design II for Media Project 3: *Adobe Illustrator***
+
 **Design II for Media Final Project: *Digital Painting***  
