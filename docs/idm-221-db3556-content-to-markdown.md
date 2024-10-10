@@ -17,7 +17,7 @@ https://www.linkedin.com/in/declan-beauchamp-5362542b5/
 Expected Graduation - (June 2028)
 ### EXPERIENCE 
 **Apprentice Coach**
-Fencing Academy of Philadelphia- Philadelphia, PA
+Fencing Academy of Philadelphia - Philadelphia, PA
 (September 2022 – September 2023)
 - Facilitated fencing training using USFA standards for students of all levels
 - Cleaned the training floor, changing rooms, office, and armory
