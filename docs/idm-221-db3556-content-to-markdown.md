@@ -25,7 +25,7 @@ Fencing Academy of Philadelphia - Philadelphia, PA
 - Maintained and repaired club and client equipment
 - Refereed fencing tournaments of all ages 
 **Inbound Expert**
-Target- Abington, PA
+Targe - Abington, PA
 (June 2024 – September 2024)
 - Assisted in the unload and stocking of products throughout the store
 - Handled and assisted in guest interactions
