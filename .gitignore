@@ -1,0 +1,4 @@
+#ignore everything in the images folder
+*.png
+*.jpg
+*.webp

@@ -84,7 +84,7 @@ CG Boost Academy
  - Email
  - Text
  - Discord
- - Zoom/Canva
+ - Zoom
 **Business Skills**
  - Time Management
  - Cloud Storage
