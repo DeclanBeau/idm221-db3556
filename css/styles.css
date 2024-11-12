@@ -1,0 +1,98 @@
+@font-face { 
+  font-family: 'Rethink Sans';
+  src: url('../fonts/RethinkSans.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face { 
+    font-family: 'Rethink Sans Italic';
+    src: url('../fonts/RethinkSans-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; 
+  }
+
+@font-face { 
+    font-family: 'Libre Franklin';
+    src: url('../fonts/LibreFranklin.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap; 
+  }
+
+@font-face { 
+    font-family: 'Libre Franklin Italic';
+    src: url('../fonts/LibreFranklin-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap; 
+  }
+:root{
+    --background-color: #AFC3C7; 
+    --accent-color: #331C09;
+    --color-text: #000000;
+    --color-text-accent: #743C11;
+    --color-text-buttons: #FFFFFF; 
+
+    --font-main: 'Rethink Sans', Arial, sans-serif;
+    --font-main-italic: 'Rethink Sans Italic', (--font-main);
+    --font-bold: 'Libre Franklin', Arial, sans-serif;
+    --font-bold-italic: 'Libre Franklin Italic', (--font-bold);
+
+    --rhythm: 1.5rem;
+
+    --heading-margin:var(--rhythm) 0 0; 
+
+}
+p{
+  color: var(--color-text);
+  font-family: var(--font-main);
+  font-size: 1.15rem;
+  line-height: var(--rhythm);
+  margin: .5rem .7rem 1.2rem;
+  text-indent: var(--rhythm);
+  
+}
+body{
+    background-color: var(--background-color);
+}
+
+header{
+h1{
+    color: var(--color-text-accent);
+    font-family: var(--font-bold);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: var(--heading-margin);
+ }
+}
+ 
+h1{
+  color: var(--color-text-accent);
+  font-family: var(--font-bold);
+  font-size: 2.5rem;
+  text-align: left;
+  margin:var(--heading-margin);
+}
+
+ h2{
+  color:var(--color-text-accent);
+  font-family: var(--font-bold);
+  margin: var(--rhythm) 0 0;
+  font-size: var(--rhythm);  
+ }
+ 
+ h3{
+  color: var(--color-text-accent);
+  font-family: var(--font-bold);
+  margin: var(--heading-margin);
+  font-size: 1.2rem
+ }
+.navlist{
+    ul{
+      p{
+      }
+    }
+}
