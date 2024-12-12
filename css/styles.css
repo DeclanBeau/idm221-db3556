@@ -105,8 +105,8 @@ body{
 }
 
 img{
-  margin: var(--rhythm) 0 ;
   display: block;
+  margin: auto; 
   border-style: solid;
   border-width: 2px;
   border-color: var(--header-color);
@@ -151,7 +151,7 @@ div.header {
   background-color: var(--header-color);
   padding-top: 1px;
   padding-bottom: 1px;
-  width: 425px;
+  width: 440px;
 }
 
 div.header h1 {
@@ -162,7 +162,7 @@ div.footer {
   background-color: var(--header-color);
   padding-top: 1px;
   padding-bottom: 1px;
-  width: 425px;
+  width: 440px;
 }
 
 div.footer h3 {
