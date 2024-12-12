@@ -103,6 +103,26 @@ body{
     margin: 0;
 }
 
+button{
+  background-color: var(--accent-color);
+  border: none;
+  color: var(--color-text-buttons);
+  padding: 15px 30px;
+  margin: var(--rhythm) auto;
+  text-align: center;
+  display: block;
+  font-size: 1.15rem;
+  font-family: var(--font-main);
+}
+
+img{
+  margin: var(--rhythm) 0 ;
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--header-color);
+}
+
 nav{
     ul{
       /* prevents each list item from starting with a dash */   
@@ -120,9 +140,9 @@ nav{
         a{
           color: var(--color-text);
           text-decoration: none;
-        }
-      padding: 0;
-      margin: .5rem 0rem;  
+        } 
+      margin: auto; 
+      text-align: center; 
       list-style-type: none; 
       font-family: var(--font-main);
       line-height: var(--rhythm);
@@ -139,27 +159,61 @@ div.contain-home{
       text-indent: var(--rhythm);
     }
 }
-div.contact-info{
-  ul{
-    color: var(--color-text);
-    font-family: var(--font-main);
-    font-size: 1.15rem;
-    line-height: var(--rhythm);
-    margin: .2rem .7rem 1.2rem;
-    padding: 0;
-    list-style-type: none;
-  }
-}
 div.header{
   background-color: var(--header-color);
   padding-top: 1px; 
-  
+  padding-bottom:1px;
+  width: 425px;
     h1{
         color: var(--color-text);
     }
 }
+
+div.footer{
+  background-color: var(--header-color);
+  padding-top: 1px; 
+  padding-bottom: 1px;
+  width:425px;
+    h3{
+        color: var(--color-text);
+    }
+    ul{
+      /* prevents each list item from starting with a dash */   
+        li{
+          display: inline; 
+          margin: 0 1rem 0 1rem;
+          font-size: .9rem; 
+          text-indent: 0;
+          padding: 0;
+        }
+        li:before{
+          content: none;
+          padding: 0;
+        }
+        a{
+          color: var(--color-text-accent);
+        } 
+      margin: auto; 
+      text-align: center; 
+      list-style-type: none; 
+      font-family: var(--font-main);
+      line-height: var(--rhythm);
+      }
+}
+
 div.about{
   p{
+    text-indent: var(--rhythm);
+  }
+}
+
+div.contain-3d{
+  p{
+    color: var(--color-text); 
+    font-family: var(--font-main);
+    font-size: 1.15rem;
+    line-height: var(--rhythm);
+    margin: .5rem .7rem 1.2rem;
     text-indent: var(--rhythm);
   }
 }
