@@ -38,9 +38,9 @@
     --color-text-buttons: #FFFFFF; 
 
     --font-main: 'Rethink Sans', Arial, sans-serif;
-    --font-main-italic: 'Rethink Sans Italic', (--font-main);
+    --font-main-italic: 'Rethink Sans Italic', var(--font-main);
     --font-bold: 'Libre Franklin', Arial, sans-serif;
-    --font-bold-italic: 'Libre Franklin Italic', (--font-bold);
+    --font-bold-italic: 'Libre Franklin Italic', var(--font-bold);
 
     --rhythm: 1.5rem;
 
@@ -82,17 +82,18 @@ ul{
   margin: .2rem .7rem 1.2rem;
   padding: 0;
   list-style-type: none; 
+}
 /* starts each list item with a dash instead of a bullet point */
-  li{
+ul li{
     text-indent: -17px;
     margin: .5rem;  
     padding: 0 0 0 1rem
-  }
-  li:before{
+}
+ul li:before{
     content: "-";
     padding: 0 .5rem 0 0;
-    }
 }
+
 
 a{
   color: var(--color-text-accent)
@@ -103,18 +104,6 @@ body{
     margin: 0;
 }
 
-button{
-  background-color: var(--accent-color);
-  border: none;
-  color: var(--color-text-buttons);
-  padding: 15px 30px;
-  margin: var(--rhythm) auto;
-  text-align: center;
-  display: block;
-  font-size: 1.15rem;
-  font-family: var(--font-main);
-}
-
 img{
   margin: var(--rhythm) 0 ;
   display: block;
@@ -123,97 +112,117 @@ img{
   border-color: var(--header-color);
 }
 
-nav{
-    ul{
-      /* prevents each list item from starting with a dash */   
-        li{
-          display: inline; 
-          margin: 0 1rem 0 1rem;
-          font-size: .9rem; 
-          text-indent: 0;
-          padding: 0;
-        }
-        li:before{
-          content: none;
-          padding: 0;
-        }
-        a{
-          color: var(--color-text);
-          text-decoration: none;
-        } 
-      margin: auto; 
-      text-align: center; 
-      list-style-type: none; 
-      font-family: var(--font-main);
-      line-height: var(--rhythm);
-      }
+nav ul {
+  margin: auto;
+  text-align: center;
+  list-style-type: none;
+  font-family: var(--font-main);
+  line-height: var(--rhythm);
 }
 
-div.contain-home{
-    p{
-      color: var(--color-text); 
-      font-family: var(--font-main);
-      font-size: 1.15rem;
-      line-height: var(--rhythm);
-      margin: .5rem .7rem 1.2rem;
-      text-indent: var(--rhythm);
-    }
-}
-div.header{
-  background-color: var(--header-color);
-  padding-top: 1px; 
-  padding-bottom:1px;
-  width: 425px;
-    h1{
-        color: var(--color-text);
-    }
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  text-indent: 0;
+  padding: 0;
 }
 
-div.footer{
+nav ul li:before {
+  content: none;
+  padding: 0;
+}
+
+nav ul li a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+div.contain-home p {
+  color: var(--color-text);
+  font-family: var(--font-main);
+  font-size: 1.15rem;
+  line-height: var(--rhythm);
+  margin: 0.5rem 0.7rem 1.2rem;
+  text-indent: var(--rhythm);
+}
+
+div.header {
   background-color: var(--header-color);
-  padding-top: 1px; 
+  padding-top: 1px;
   padding-bottom: 1px;
-  width:425px;
-    h3{
-        color: var(--color-text);
-    }
-    ul{
-      /* prevents each list item from starting with a dash */   
-        li{
-          display: inline; 
-          margin: 0 1rem 0 1rem;
-          font-size: .9rem; 
-          text-indent: 0;
-          padding: 0;
-        }
-        li:before{
-          content: none;
-          padding: 0;
-        }
-        a{
-          color: var(--color-text-accent);
-        } 
-      margin: auto; 
-      text-align: center; 
-      list-style-type: none; 
-      font-family: var(--font-main);
-      line-height: var(--rhythm);
-      }
+  width: 425px;
 }
 
-div.about{
-  p{
-    text-indent: var(--rhythm);
-  }
+div.header h1 {
+  color: var(--color-text);
 }
 
-div.contain-3d{
-  p{
-    color: var(--color-text); 
-    font-family: var(--font-main);
-    font-size: 1.15rem;
-    line-height: var(--rhythm);
-    margin: .5rem .7rem 1.2rem;
-    text-indent: var(--rhythm);
-  }
+div.footer {
+  background-color: var(--header-color);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 425px;
+}
+
+div.footer h3 {
+  color: var(--color-text);
+}
+
+div.footer ul {
+  margin: auto;
+  text-align: center;
+  list-style-type: none;
+  font-family: var(--font-main);
+  line-height: var(--rhythm);
+}
+
+div.footer ul li {
+  display: inline;
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  text-indent: 0;
+  padding: 0;
+}
+
+div.footer ul li:before {
+  content: none;
+  padding: 0;
+}
+
+div.footer ul li a {
+  color: var(--color-text-accent);
+}
+
+div.about p {
+  text-indent: var(--rhythm);
+}
+
+div.contain-3d p {
+  color: var(--color-text);
+  font-family: var(--font-main);
+  font-size: 1.15rem;
+  line-height: var(--rhythm);
+  margin: 0.5rem 0.7rem 1.2rem;
+  text-indent: var(--rhythm);
+}
+
+div.button a {
+  color: var(--color-text-buttons);
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+div.button {
+  width: 125px;
+  height: 25px;
+  background-color: var(--accent-color);
+  border: none;
+  padding: 15px 30px;
+  margin: var(--rhythm) auto;
+  text-align: center;
+  display: block;
+  font-size: 1.15rem;
+  font-family: var(--font-main);
 }
