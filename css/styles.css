@@ -226,3 +226,11 @@ div.button {
   font-size: 1.15rem;
   font-family: var(--font-main);
 }
+
+div.top-image{
+  margin-top: var(--rhythm);
+}
+
+div.bottom-image{
+  margin-bottom: var(--rhythm);
+}
