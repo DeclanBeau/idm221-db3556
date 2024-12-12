@@ -151,7 +151,7 @@ div.header {
   background-color: var(--header-color);
   padding-top: 1px;
   padding-bottom: 1px;
-  width: 440px;
+  width: 100vw;
 }
 
 div.header h1 {
@@ -162,7 +162,7 @@ div.footer {
   background-color: var(--header-color);
   padding-top: 1px;
   padding-bottom: 1px;
-  width: 440px;
+  width: 100vw;
 }
 
 div.footer h3 {
